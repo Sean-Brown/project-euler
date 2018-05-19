@@ -11,6 +11,6 @@ function calcEvenFibs(prev, curr, sum, limit) {
     return calcEvenFibs(prev, curr, sum, limit);
 }
 
-var max = 4000000; // 4 million
+var max = 4 * 1000 * 1000; // 4 million
 var sum = calcEvenFibs(0, 1, 0, max);
 console.log('sum = ' + sum);
