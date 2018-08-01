@@ -1,5 +1,4 @@
 import numpy as np
-from scipy import linalg 
 
 # 999x1 column vector, from 1 to 999
 inputs = np.array([[x + 1 for x in range(999)]]).T
